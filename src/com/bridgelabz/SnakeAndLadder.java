@@ -17,7 +17,6 @@ public class SnakeAndLadder {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int startPosition = 0;
-	
 		
 		//System.out.println("Player position is: " + startPosition);
 		Random random = new Random();
@@ -40,10 +39,8 @@ public class SnakeAndLadder {
 			
 		default:
 			System.out.println("Snake");
-			
 			break;
 		}
-	
 	}
 
 }
