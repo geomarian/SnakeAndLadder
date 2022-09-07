@@ -18,6 +18,7 @@ public class SnakeAndLadder {
 		// TODO Auto-generated method stub
 		int startPosition = 0;
 		System.out.println("Player position is: " + startPosition);
+	
 	}
 
 }
