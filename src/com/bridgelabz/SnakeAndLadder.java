@@ -23,5 +23,4 @@ public class SnakeAndLadder {
 		System.out.println("Dice Rolling...");
 		System.out.println("Dice Number: " + dice);
 	}
-
 }
