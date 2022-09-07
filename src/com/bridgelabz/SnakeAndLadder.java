@@ -10,7 +10,6 @@ import java.util.Random;
  *
  */
 public class SnakeAndLadder {
-
 	/**
 	 * @param args
 	 */
