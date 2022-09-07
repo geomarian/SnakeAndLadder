@@ -22,6 +22,25 @@ public class SnakeAndLadder {
 		int dice = 1 + random.nextInt(6);
 		System.out.println("Dice Rolling...");
 		System.out.println("Dice Number: " + dice);
+		// To Get Random Number For No Play, Ladder, Snake.
+		int playCheck = random.nextInt();
+		
+		// To Check Options To No Play, Ladder Or Snake
+		switch (playCheck) {
+		case 0:
+			System.out.println(" No Play");
+			break;
+		case 1:
+			System.out.println(" Ladder");
+			startPosition = startPosition + dice;
+			break;
+			
+		default:
+			System.out.println("Snake");
+			
+			break;
+		}
+	
 	}
 
 }
