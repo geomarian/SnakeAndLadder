@@ -20,7 +20,7 @@ public class SnakeAndLadder {
 		// TODO Auto-generated method stub
 
 		int winPosition = 100;
-		int diceRolled =0;
+		
 		Scanner input = new Scanner(System.in);
 	
 		for(int startPositionP1 = 0; startPositionP1 != winPosition;) {
@@ -61,10 +61,8 @@ public class SnakeAndLadder {
 				}
 				System.out.println("The position is: " + startPositionP1);
 				System.out.println("-----------------");
-				 diceRolled++;
 				 
-			}
-			
-			
+			}	
 		}
+		System.out.println("Incorrect Digit! Please enter new number.");
 	}}
