@@ -20,7 +20,7 @@ public class SnakeAndLadder {
 		// TODO Auto-generated method stub
 
 		int winPosition = 100;
-		
+		int diceRolled = 0;
 		Scanner input = new Scanner(System.in);
 	
 		for(int startPositionP1 = 0; startPositionP1 != winPosition;) {
@@ -64,4 +64,7 @@ public class SnakeAndLadder {
 				 
 			}	
 		}
-	}}
+		System.out.println("You Rolled Dices " + diceRolled + " Times.");
+		System.out.println("Congratulations! You Won The Game.");
+	}
+	}
