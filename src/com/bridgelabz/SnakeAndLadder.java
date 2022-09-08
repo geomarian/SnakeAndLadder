@@ -46,7 +46,7 @@ public class SnakeAndLadder {
 					break;
 
 				case 1:
-					System.out.println("Ladder");
+					System.out.println("Ladder : Player stepped Up");
 					startPositionP1 = startPositionP1 + dice;
 					if(startPositionP1 > winPosition) {
 						startPositionP1 = startPositionP1 - dice;
@@ -54,7 +54,7 @@ public class SnakeAndLadder {
 					break;
 
 				default:
-					System.out.println("Snake");
+					System.out.println("Snake : Player stepped Down");
 					startPositionP1 = startPositionP1 - dice;
 					startPositionP1 = 0;
 					break;
