@@ -64,5 +64,4 @@ public class SnakeAndLadder {
 				 
 			}	
 		}
-		System.out.println("Incorrect Digit! Please enter new number.");
 	}}
